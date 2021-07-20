@@ -64,7 +64,7 @@ class empleado{
 	//Variables de clase
 	private String nombre;
 	private double sueldo;
-	private Date altaContrato;
+	private Date altaContrato; 
 	private static int IdSiguiente;
 	private int Id;
 	
@@ -129,6 +129,7 @@ class jefatura extends empleado{
 		return sueldoJefe + incentivo;
 	}
 	
+
 
 }
 
